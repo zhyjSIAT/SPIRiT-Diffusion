@@ -15,6 +15,10 @@ by [Zhuo-Xu Cui*](https://scholar.google.com/citations?user=QZx0xdgAAAAJ&hl=en),
 ### Abstract
 Diffusion models are leading methods for image generation and have shown success in MRI reconstruction. However, existing diffusion-based methods primarily work in the image domain, making them vulnerable to inaccuracies in coil sensitivity maps (CSMs). While k-space interpolation methods address this issue, conventional diffusion models are not directly applicable to k-space interpolation. To tackle this, we introduce SPIRiT-Diffusion, a k-space interpolation diffusion model inspired by the iterative SPIRiT method. By utilizing SPIRiT’s self-consistent term (k-space physical prior), we formulate a novel stochastic differential equation (SDE) for the diffusion process, enabling k-space data interpolation. This approach highlights the importance of optimization models in designing SDEs, aligning the diffusion process with underlying physical principles, known as model-driven diffusion. Evaluated on a 3D joint intracranial and carotid vessel wall imaging dataset, SPIRiT-Diffusion outperforms image-domain methods, achieving high-quality reconstruction even at an acceleration rate of 10.
 
+## Adv
+Checkout our
+- 🔥🔥🔥TMI'24 Work [HFS-SDE](https://github.com/Aboriginer/HFS-SDE) tailored specifically for MR reconstruction with the diffusion process in high-frequency space.
+
 ## Setup
 
 This section covers environment setup, data preparation, usage instructions, experiment weights, and a quick start guide. In the quick start, we provide experiment weights and synthetic data for easy model validation, without requiring lengthy data downloads. Parameter settings for generating high-quality reconstruction samples are also included.
